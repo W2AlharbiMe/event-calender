@@ -1,0 +1,23 @@
+{
+  "name": "events",
+  "version": "1.0.0",
+  "description": "Manage Events/Calender App, @Hapi, Mysql",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "AbdullahAlharbi",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "dotenv": "^8.6.0",
+    "fs-extra": "^9.1.0",
+    "mysql2": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-reverentgeek": "^3.1.2",
+    "nodemon": "^2.0.14"
+  }
+}
